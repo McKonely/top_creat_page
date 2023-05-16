@@ -13,7 +13,8 @@ body{
 }
 header,
 .first,
-.second {
+.second,
+.third {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
@@ -120,4 +121,29 @@ header .container a {
     border: 3px solid #3882F6;
     border-radius: 15px;
     padding: 10px;
+}
+
+/*THIRD SECTION*/
+.third{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+.third .width {
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 40px;
+}
+.third .content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 900;
 }
