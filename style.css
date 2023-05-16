@@ -12,7 +12,8 @@ body{
     justify-content: space-between; 
 }
 header,
-.first {
+.first,
+.second {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
@@ -20,6 +21,9 @@ header,
 }
 
 /*HEADER SECTION*/
+header{
+    padding-top: 15px;
+}
 header img {
     height: 70px;
     width: auto;
@@ -38,7 +42,8 @@ header .container a {
 }
 
 /*FIRST SECTION*/
-.first{
+.first,
+.second{
     padding: 100px 0 100px 0
 }
 .left{
@@ -47,7 +52,6 @@ header .container a {
     align-items: flex-start;
     flex-basis: 400px;
     gap: 20px;
-    min-width: 400px;
 }
 .first .width{
     flex-shrink: 0;
@@ -78,3 +82,42 @@ header .container a {
 }
 
 /*SECOND SECTION*/
+.second{
+    background-color: white;
+    padding-top: 50px;
+}
+.second .width{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+}
+.second .top{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    padding-bottom: 30px;
+    align-self: center;
+}
+.second .inf-container{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+
+}
+.inf-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 150px;
+    text-align: center;
+
+}
+.inf-container img{
+    width: 150px;
+    height: auto;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    padding: 10px;
+}
