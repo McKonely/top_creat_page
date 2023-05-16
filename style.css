@@ -8,7 +8,7 @@ body{
 }
 .width{
     display: flex;
-    width: 65%;
+    width: 75%;
     justify-content: space-between; 
 }
 header,
@@ -81,7 +81,6 @@ header .container a {
 .first img {
     width: 500px;
     height: auto;
-    margin-right: 80px;
 }
 
 /*SECOND SECTION*/
@@ -160,7 +159,7 @@ header .container a {
     background-color: #3882F6;
     display: flex;
     padding: 40px 90px 40px 90px;
-    flex-basis: 65%;
+    flex-basis: 75%;
     justify-content: space-between;
     border-radius: 15px;
     font-size: 24px;
